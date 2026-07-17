@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function AchievementBadge({ badge }) {
-  const { id, nameEn, nameNy, descEn, descNy, icon, unlocked, date } = badge;
+  const { nameEn, nameNy, descEn, icon, unlocked, date } = badge;
 
   return (
     <div className={`relative flex flex-col items-center p-4 rounded-2xl border transition-all duration-300 ${
