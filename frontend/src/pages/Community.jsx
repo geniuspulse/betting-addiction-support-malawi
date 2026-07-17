@@ -96,7 +96,7 @@ export default function Community() {
             <p className="font-extrabold text-sm md:text-base mt-1">
               {t(
                 "Go for a 20-minute walk or help a neighbor instead of opening any betting application.",
-                "Kawayendeni m'mbali mwa msewu kwa mphindi 20 kapena kathandizeni mnzanu panyumba m'malo motsegula foni yobetcha."
+                "Kawayendeni m&apos;mbali mwa msewu kwa mphindi 20 kapena kathandizeni mnzanu panyumba m&apos;malo motsegula foni yobetcha."
               )}
             </p>
           </div>
