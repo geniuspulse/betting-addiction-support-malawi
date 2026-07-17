@@ -88,7 +88,7 @@ export default function Home() {
           <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
             <div className="text-2xl mb-2">💼</div>
             <h3 className="font-bold text-gray-900 mb-2">{t('Recovery Wallet', 'Thumba Lopulumutsa')}</h3>
-            <p className="text-sm text-gray-500">{t('Track money saved that would have otherwise gone to betting. Invest in your real dreams.', 'Yerekezerani ndalama zomwe mwasunga m'malo mobetcha. Sungani kaamba ka maloto anuanu.')}</p>
+            <p className="text-sm text-gray-500">{t('Track money saved that would have otherwise gone to betting. Invest in your real dreams.', 'Yerekezerani ndalama zomwe mwasunga m&apos;malo mobetcha. Sungani kaamba ka maloto anuanu.')}</p>
           </div>
           <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
             <div className="text-2xl mb-2">🎓</div>
