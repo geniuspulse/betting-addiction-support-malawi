@@ -14,7 +14,7 @@ export default function BreathingExercise() {
         setTimer((prev) => {
           const next = (prev + 1) % 19; // 4s inhale, 7s hold, 8s exhale = 19s total
           if (next < 4) {
-            setPhase(t('Inhale', 'Usa Mfumo (Lowetsani)');
+            setPhase(t('Inhale', 'Lowetsani'));
           } else if (next < 11) {
             setPhase(t('Hold', 'Gwirani Mfumo'));
           } else {
