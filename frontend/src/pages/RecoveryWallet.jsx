@@ -5,8 +5,7 @@ import ProgressBar from '../components/ProgressBar';
 
 export default function RecoveryWallet() {
   const { t } = useLanguage();
-  const navigate = useNavigate();
-
+  
   // Load / Setup State
   const [betPerDay, setBetPerDay] = useState(() => Number(localStorage.getItem('basm_bet_per_day') || 3000));
   const [goalType, setGoalType] = useState(() => localStorage.getItem('basm_goal_name') || 'School Fees');
